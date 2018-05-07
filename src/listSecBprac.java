@@ -25,4 +25,10 @@ public class listSecBprac {
         for (Object o:list)
         System.out.println(o);
     }
+    public  ArrayList<Integer> getInteger(){
+        ArrayList<Integer> integers=new ArrayList<>();
+        integers.add(1);
+        integers.add(2);
+        return integers;
+    }
 }
